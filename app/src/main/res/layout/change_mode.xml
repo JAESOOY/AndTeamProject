@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    //tools:context="com.example.bbb.wang.MainActivity"
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="사업자 회원가입"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginRight="0dp">
+            <EditText
+                android:id="@+id/edit_phone"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="전화번호"/>
+
+
+            <EditText
+                android:id="@+id/edit_number"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="인증번호"/>
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="매장명"/>
+
+            <EditText
+                android:id="@+id/edit_license"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="사업자번호"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/edit_send"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:text="인증하기"
+            android:onClick="onClick"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="0.5">
+
+        <Button
+            android:id="@+id/edit_apply"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:onClick="onClick"
+            android:text="신청하기"/>
+    </LinearLayout>
+</LinearLayout>

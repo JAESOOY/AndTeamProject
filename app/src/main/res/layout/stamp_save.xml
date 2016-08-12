@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="스탬프 적립"
+                android:textSize="40dp"
+                android:textAlignment="center"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText android:id="@+id/stampnumber"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="스탬프 갯수"
+                android:textAlignment="textStart"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText android:id="@+id/edit_message"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="핸드폰 번호"
+                android:textAlignment="center"
+                android:textSize="40dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:text="1"
+                    android:layout_weight="0.33"
+                    android:textSize="40dp"
+                    android:background="@drawable/abc_action_bar_item_background_material" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:text="2"
+                    android:layout_weight="0.33"
+                    android:textSize="40dp"
+                    android:background="@drawable/abc_action_bar_item_background_material" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:text="3"
+                    android:layout_weight="0.33"
+                    android:textSize="40dp"
+                    android:background="@drawable/abc_action_bar_item_background_material" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:text="4"
+                    android:layout_weight="0.33"
+                    android:textSize="40dp"
+                    android:background="@drawable/abc_action_bar_item_background_material" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:text="5"
+                    android:layout_weight="0.33"
+                    android:textSize="40dp"
+                    android:background="@drawable/abc_action_bar_item_background_material" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:text="6"
+                    android:layout_weight="0.33"
+                    android:textSize="40dp"
+                    android:background="@drawable/abc_action_bar_item_background_material" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:text="7"
+                    android:layout_weight="0.33"
+                    android:textSize="40dp"
+                    android:background="@drawable/abc_action_bar_item_background_material" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:text="8"
+                    android:layout_weight="0.33"
+                    android:textSize="40dp"
+                    android:background="@drawable/abc_action_bar_item_background_material" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:text="9"
+                    android:layout_weight="0.33"
+                    android:textSize="40dp"
+                    android:background="@drawable/abc_action_bar_item_background_material" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:text=""
+                    android:layout_weight="0.33"
+                    android:textSize="40dp"
+                    android:background="@drawable/abc_action_bar_item_background_material" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:text="0"
+                    android:layout_weight="0.33"
+                    android:textSize="40dp"
+                    android:background="@drawable/abc_action_bar_item_background_material" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="적립하기"
+                    android:layout_weight="0.1"
+                    android:textSize="17dp"
+                    android:background="@android:drawable/toast_frame" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:background="#f8f0f0"
+            android:clickable="false"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/home_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="스탬프 적립"
+                android:layout_weight="1"
+                android:singleLine="false"
+                android:clickable="true"
+                android:background="#f8f0f0"
+                android:textSize="15dp" />
+            <Button
+                android:id="@+id/whole_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="매장정보"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="#f8f0f0"
+                android:textSize="15dp" />
+            <Button
+                android:id="@+id/event_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="#f8f0f0"
+                android:textSize="15dp" />
+            <Button
+                android:id="@+id/setting_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="#f8f0f0"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

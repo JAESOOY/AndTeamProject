@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="28dp"
+        android:text="#      NOTICE"
+        android:textColor="#ff00ff"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ff88ff"
+        android:textStyle="bold"
+        android:weightSum="1">
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/alarm_swch"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/seto"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:drawablePadding="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"
+            android:text="Push Alarm"
+            android:layout_weight="2.32" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/my_info_btn"
+            android:layout_marginTop="2dp"
+            android:drawableLeft="@drawable/seto"
+            android:background="#ffffff"
+            android:paddingLeft="18dp"
+            android:textStyle="bold"
+            android:drawablePadding="18dp"
+            android:gravity="left|center_vertical"
+            android:text="My Info"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/app_info_btn"
+            android:paddingLeft="18dp"
+            android:drawablePadding="18dp"
+            android:layout_marginTop="2dp"
+            android:gravity="left|center_vertical"
+            android:drawableLeft="@drawable/seto"
+            android:textStyle="bold"
+            android:text="APP INFO"
+            android:textColor="#000000"
+            android:background="#ffffff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/logout_btn"
+            android:layout_marginTop="2dp"
+            android:text="Logout"
+            android:drawableLeft="@drawable/seto"
+            android:paddingLeft="18dp"
+            android:gravity="left|center_vertical"
+            android:drawablePadding="18dp"
+            android:textStyle="bold"
+            android:background="#ffffff"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/contact_btn"
+            android:layout_marginTop="2dp"
+            android:drawableLeft="@drawable/seto"
+            android:background="#ffffff"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="18dp"
+            android:textStyle="bold"
+            android:drawablePadding="18dp"
+            android:text="Contact Us"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/change_mode_btn"
+            android:paddingLeft="34dp"
+            android:gravity="left|center_vertical"
+            android:background="#ffffff"
+            android:text="#      Mode Change"
+            android:textStyle="bold"
+            android:textColor="#ff00ff"/>
+    </LinearLayout>
+</LinearLayout>
